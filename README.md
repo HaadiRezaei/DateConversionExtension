@@ -4,11 +4,12 @@
 
 * دانلود افزونه
 * فعال کردن developer mode در بخش افزونه های کروم
-* دکمه load unpacked و نتخاب پوشه اصلی حاوی افزونه
+* دکمه load unpacked و انتخاب پوشه اصلی حاوی افزونه
 
 
+![photo of date conversion extension](https://github.com/haadirezaei/dateconversionextension/blob/main/photo.jpg?raw=true)
 
-...
+
 ## Date Conversion extension from georgian to shamsi(jalali) for chrome browser
 #### How to install
 
