@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Date Conversion</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.rtl.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2 class="text-center">تبدیل تاریخ</h2>
+    <hr>
+    <select class="form-select mb-3" aria-label="select type of conversion">
+        <option value="1" selected>میلادی به شمسی</option>
+    </select>
+    <hr>
+    <div class="row g-3 mb-3">
+        <div class="col">
+            <input type="text" name="day" id="dayElement" class="form-control" placeholder="روز" aria-label="City" autofocus>
+        </div>
+        <div class="col">
+            <select class="form-select" id="monthElement" aria-label="Default select example">
+                <option selected>ماه</option>
+                <option value="1">1 - January</option>
+                <option value="2">2 - Feburary</option>
+                <option value="3">3 - March</option>
+                <option value="4">4 - April</option>
+                <option value="5">5 - May</option>
+                <option value="6">6 - Jun</option>
+                <option value="7">7 - July</option>
+                <option value="8">8 - August</option>
+                <option value="9">9 - September</option>
+                <option value="10">10 - October</option>
+                <option value="11">11 - Novemeber</option>
+                <option value="12">12 - December</option>
+            </select>
+        </div>
+        <div class="col">
+            <input type="text" id="yearElement" name="year" class="form-control" placeholder="سال" aria-label="Zip">
+        </div>
+    </div>
+    <button class="btn btn-primary w-100" id="changeButton" role="button">تبدیل و کپی</button>
+    <hr>
+    <div class="card d-none" id="changedSection">
+        <div class="card-body">
+            <p class="text-center" id="changedDateElement" type="date"></p>
+        </div>
+    </div>
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

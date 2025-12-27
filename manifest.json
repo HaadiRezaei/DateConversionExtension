@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Date Conversion Extension",
+    "description": "Date Conversion from gregorian to jalali",
+    "version": "1.0.0",
+    "author": "rezaeihaadi@gmail.com",
+    "action": {
+        "default_popup": "./popup/index.html",
+        "default_icon": "images/logo.png"
+    }
+}
