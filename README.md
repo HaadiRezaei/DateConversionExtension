@@ -16,3 +16,6 @@
 * Download extension zip file and extract
 * Enable Developer mode in chrome extension manager
 * load unpacked and select extension folder
+
+
+if you have problem please contact me at rezaeihaadi@gmail.com
