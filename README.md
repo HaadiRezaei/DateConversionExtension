@@ -1,13 +1,16 @@
 # افزونه مرورگر کروم تبدیل تاریخ میلادی به شمسی
-## روش نصب
+### امکان تبدیل تاریخ و کپی همزمان تاریخ تبدیل شده برای استفاده در فیلد های مورد نیاز
+#### روش نصب
 
 * دانلود افزونه
 * فعال کردن developer mode در بخش افزونه های کروم
 * دکمه load unpacked و نتخاب پوشه اصلی حاوی افزونه
 
+
+
 ...
 ## Date Conversion extension from georgian to shamsi(jalali) for chrome browser
-### How to install
+#### How to install
 
 * Download extension zip file and extract
 * Enable Developer mode in chrome extension manager
